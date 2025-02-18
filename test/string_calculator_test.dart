@@ -27,5 +27,18 @@ void main() {
       expect(calculator.add('//;\n1;2'), equals(3));
       expect(calculator.add('//|\n1|2|3'), equals(6));
     });
+
+    test('should throw exception for negative numbers', () {
+      expect(
+        () => calculator.add('-1,2'),
+        throwsA(predicate((e) => e.toString() == 'Negatives not allowed: -1')),
+      );
+
+      expect(
+        () => calculator.add('2,-4,3,-5'),
+        throwsA(
+            predicate((e) => e.toString() == 'Negatives not allowed: -4,-5')),
+      );
+    });
   });
 }
