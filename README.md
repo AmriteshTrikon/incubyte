@@ -1,6 +1,10 @@
 # String Calculator TDD Kata
 
-A Test-Driven Development implementation of a String Calculator in Dart.
+## Introduction
+
+This project is an implementation of the String Calculator TDD Kata, completed as part of a technical assessment for Incubyte. The goal was to demonstrate proficiency in Test-Driven Development (TDD) and showcase clean, well-tested code.
+
+The project adheres strictly to TDD principles, with each feature developed through a cycle of writing a failing test, implementing the minimal code to pass the test, and then refactoring. The commit history reflects this process, with frequent commits showing the evolution of the code with each step of TDD.
 
 ## Problem Description
 
@@ -18,6 +22,7 @@ Create a simple String Calculator with a method `add(String numbers)` that takes
 
 ## Project Structure
 
+
 ```
 string_calculator/
 ├── lib/
@@ -31,7 +36,7 @@ string_calculator/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/string_calculator.git
+git clone https://github.com/AmriteshTrikon/string_calculator.git
 cd string_calculator
 ```
 
@@ -72,7 +77,7 @@ dart test -r expanded
 <summary>Click to see test results</summary>
 
 ```
-[Screenshot of test results will go here]
+[https://drive.google.com/drive/folders/1WiSnktN_ZJ_sY_-QpEQm_V5hjwxGMoHA?usp=sharing]
 ```
 
 </details>
@@ -102,21 +107,12 @@ This project strictly follows Test-Driven Development principles:
 3. 🔄 Refactor
 4. 🔁 Repeat
 
-## Contributing
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
-[Your Name]
+Amritesh Khare
 
 ## Acknowledgments
 
