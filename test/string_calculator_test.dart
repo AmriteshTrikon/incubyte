@@ -17,5 +17,10 @@ void main() {
       expect(calculator.add('1'), equals(1));
       expect(calculator.add('2'), equals(2));
     });
+
+    test('should handle new lines between numbers', () {
+      expect(calculator.add('1\n2,3'), equals(6));
+      expect(calculator.add('1,2\n3'), equals(6));
+    });
   });
 }
