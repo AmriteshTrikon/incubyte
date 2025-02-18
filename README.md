@@ -86,7 +86,12 @@ dart test -r expanded
 ![Green Phase](assets/green-phase.png)
 
 ### 2. Each Testcase(Passing Test)
-![Green Phase](assets/eachtest.png)
+![TestCase Phase](assets/eachtest.png)
+
+
+
+
+![ScreenShot](assets/ab.png)
 
 
 ## Development Process
