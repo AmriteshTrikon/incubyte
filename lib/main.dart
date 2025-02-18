@@ -4,8 +4,16 @@ class StringCalculator {
       return 0;
     }
 
-    String normalized = numbers.replaceAll('\n', ',');
-    List<String> numberList = normalized.split(',');
+    String delimiter = ',';
+    String numbersToProcess = numbers;
+
+    if (numbers.startsWith('//')) {
+      delimiter = numbers[2];
+      numbersToProcess = numbers.substring(4);
+    }
+
+    String normalized = numbersToProcess.replaceAll('\n', delimiter);
+    List<String> numberList = normalized.split(delimiter);
     int sum = 0;
     for (String num in numberList) {
       sum += int.parse(num);
